@@ -3,11 +3,15 @@ var cookies = {name: "cookies", price: 2.99};
 var cucumburs = {name: "cucumburs", price: 1.49};
 var cornedBeef = {name: "corned beef", price: 14.99};
 var potatoChips = {name: "potato chips", price: 2.49};
-var pickles = {name: "pickles", price: 3.99};
+var mayo = {name: "mayo", price: 4.49};
+var cheese = {name: "cheese", price: 6.99};
+var dogFood = {name: "dog food", price: 29.99};
+var beer = {name: "beer", price: 7.99};
+var pickles = {name: "cookies", price: 2.99}
 
 // create array using push method
 var list = [];
-list.push(onions,cookies,cucumburs,cornedBeef,potatoChips,pickles);
+list.push(onions,cookies,cucumburs,cornedBeef,potatoChips,pickles,mayo,cheese,dogFood,beer);
 
 // intialize total variable
 var total = 0;
