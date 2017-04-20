@@ -1,13 +1,46 @@
 <!doctype HTML>
 <html>
-  <head>
-  </head>
+<head>
+  <title>Shopping Cart</title>
 
-  <body>
-    <h1>Shopping Cart</h1>
-    <div id="listDisplay">
+  <link href="cart.css" rel="stylesheet">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+
+<div class="row">
+  <div class="col-sm-2" >
+    <div class="container" id="left">
+    <h1>Add Item</h1>
+    <form>
+      Item:   <input type="text" id="item" name="item"><br>
+      Price: <input type="text" id="price" name="price"><br>
+      <button type="button" onclick="addItem()">Add
+      </button>
+      <button type="button" onclick="deletePrev()">Delete
+      </button>
+    </form>
+  </div>
+  </div>
+
+
+    <div class="col-sm-4" id="right">
+      <h1>Shopping Cart</h1>
+      <div id="shoppingList">
+      </div>
+      <hr>
+      <h2><div id="total">
+      </div></h2>
+      </div
+
     </div>
     <script src="script.js" charset="utf-8"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 
-</html>
+  </html>

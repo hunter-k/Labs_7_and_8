@@ -1,0 +1,26 @@
+body {
+  background-image: url("https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/2245025/580/387/m1/fpnw/wm1/floor-carpet-background-textures-3-.jpg?1486469998&s=ff7c4a7e424818a50ee0cf4a8fd3d8b4");
+}
+
+#right {
+  margin-left: 5%;
+  background-color: rgba(183, 187, 183, 0.9);
+  border-radius: 5%;
+  margin-top: 5px;
+  padding-left: 2%;
+  padding-bottom: 3%;
+}
+
+#left {
+  background-color: rgba(183, 187, 183, 0.9);
+  width: 250px;
+  border-radius: 5%;
+  padding: 2%;
+  padding-bottom: 3%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+h1 {
+  text-align: center;
+}
